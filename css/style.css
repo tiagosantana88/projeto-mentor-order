@@ -1,0 +1,328 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Red Hat Display', sans-serif;
+    background-image: url(../images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: hsl(225, 100%, 94%);
+    font-size: 16px;
+    text-align: center;
+}
+.container {
+    width: 350px;
+    height: 540px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 450px;
+    background: white;
+    border-radius: 25px;
+    overflow: hidden;
+}
+.img-hero img {
+   width: 350px;
+}
+.content-title {
+    margin: 10px;
+    padding: 6px;
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+    font-size: 28px;
+}
+h2 {
+    color: hsl(223, 47%, 23%);
+    font-weight: 700;
+    font-size: 16px;
+}
+p {
+     color: hsl(224, 23%, 55%);
+    font-weight: 500;
+    font-size: 14px; 
+}
+.info-p {
+    margin: 10px;
+    padding: 6px;
+    color: hsl(224, 23%, 55%);
+    font-weight: 500;
+    font-size: 16px;
+}
+.container-info {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.mid-container {
+    width: 320px;
+    height: 70px;
+    padding: 12px;
+    margin-bottom: 8px;
+    background-color: hsl(225, 100%, 98%);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+} 
+.mid-container a {
+   font-size: 14px;
+   color: hsl(245, 93%, 55%);
+   padding: 10px;
+   margin-left: 40px;
+   text-decoration: none;
+   font-weight: 700;
+}
+.container-btn {
+    width: 320px;
+    height: 40px;
+    margin: 14px;
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(245, 93%, 55%);
+    border-radius: 10px;
+}
+.proc-btn {
+    font-size: 14px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+}
+.cancel-btn {
+    font-size: 13px;
+    color: rgb(145, 145, 145);
+    text-decoration: none;
+    font-weight: 700;
+}
+.container-btn:hover {
+    background-color:hsl(245, 95%, 58%);
+    font-size: 28px;
+}
+@media only screen and (max-width: 1024px) {
+    .container {
+        width: 90%;
+        height: 95%
+    }
+    .img-hero img {
+        width: 100%;
+    }
+    .content-title {
+        font-size: 1.3em;
+    }
+    .info-p {
+        font-size: 1em;
+    }
+    .mid-container {
+        width: 350px;
+        height: 60px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .mid-container img {
+        width: 46px;
+        height: 46px;
+    }
+    h2 {
+        font-size: 0.9em;
+    }
+    p {
+        font-size: 0.9em;
+    }
+    .container-btn {
+        width: 350px;
+        margin: 10px auto;
+    }
+    .proc-btn {
+        font-size: 0.8em;
+    }
+    .cancel-btn {
+        font-size: 0.8em;
+    }
+}
+@media only screen and (max-width: 768) {
+    .container {
+        width: 90%;
+    }
+    .img-hero img {
+        width: 100%;
+    }
+    .content-title {
+        font-size: 1.3em;
+    }
+    .info-p {
+        font-size: 1em;
+    }
+    .mid-container {
+        width: 290px;
+        height: 60px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .mid-container img {
+        width: 38px;
+        height: 38px;
+    }
+    h2 {
+        font-size: 0.9em;
+        margin-left: 12px;
+    }
+    p {
+        font-size: 0.9em;
+        margin-left: 12px;
+    }
+    .container-btn {
+        width: 290px;
+        margin: 10px auto;
+    }
+    .proc-btn {
+        font-size: 0.8em;
+    }
+    .cancel-btn {
+        font-size: 0.8em;
+    }
+}
+@media only screen and (max-width: 425px) {
+    .container {
+        width: 90%;
+    }
+    .img-hero img {
+        width: 100%;
+    }
+    .content-title {
+        font-size: 1.3em;
+    }
+    .info-p {
+        font-size: 1em;
+    }
+    .mid-container {
+        width: 290px;
+        height: 60px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .mid-container img {
+        width: 38px;
+        height: 38px;
+    }
+    h2 {
+        font-size: 0.9em;
+        margin-left: 12px;
+    }
+    p {
+        font-size: 0.9em;
+        margin-left: 12px;
+    }
+    .container-btn {
+        width: 290px;
+        margin: 10px auto;
+    }
+    .proc-btn {
+        font-size: 0.8em;
+    }
+    .cancel-btn {
+        font-size: 0.8em;
+    }
+}
+@media only screen and (max-width: 375px) {
+    .container {
+        width: 90%;
+    }
+    .img-hero img {
+        width: 100%;
+    }
+    .content-title {
+        font-size: 1.3em;
+    }
+    .info-p {
+        font-size: 1em;
+    }
+    .mid-container {
+        width: 290px;
+        height: 60px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .mid-container img {
+        width: 38px;
+        height: 38px;
+    }
+    h2 {
+        font-size: 0.9em;
+        margin-left: 12px;
+    }
+    p {
+        font-size: 0.9em;
+        margin-left: 12px;
+    }
+    .container-btn {
+        width: 290px;
+        margin: 10px auto;
+    }
+    .proc-btn {
+        font-size: 0.8em;
+    }
+    .cancel-btn {
+        font-size: 0.8em;
+    }
+}
+@media only screen and (max-width: 320px) {
+    .container {
+        width: 90%;
+    }
+    .img-hero img {
+        width: 100%;
+    }
+    .content-title {
+        font-size: 1.2em;
+    }
+    .info-p {
+        font-size: 0.9em;
+    }
+    .mid-container {
+        width: 245px;
+        height: 60px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .mid-container img {
+        width: 36px;
+        height: 36px;
+    }
+    h2 {
+        font-size: 0.8em;
+        margin-left: 12px;
+    }
+    p {
+        font-size: 0.8em;
+        margin-left: 12px;
+    }
+    .container-btn {
+        width: 245px;
+    }
+    .proc-btn {
+        font-size: 0.7em;
+    }
+    .cancel-btn {
+        font-size: 0.7em;
+    }
+}
